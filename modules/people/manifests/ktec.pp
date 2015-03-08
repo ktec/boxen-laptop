@@ -1,5 +1,5 @@
-class people::globalkeith {
-  notify { 'class people::globalkeith declared': }
+class people::ktec {
+  notify { 'class people::ktec declared': }
 
   # datastores
   include postgresql # runs on 15432
@@ -21,6 +21,7 @@ class people::globalkeith {
 
   # editors
   include emacs
+  include macvim
   include vim
   vim::bundle { [
     'mileszs/ack.vim',
@@ -57,14 +58,23 @@ class people::globalkeith {
   include dropbox
 
   # osx settings
-  include osx::global::key_repeat_rate
-  include osx::global::enable_keyboard_control_access
-  include osx::global::expand_print_dialog
-  include osx::global::expand_save_dialog
-
-  include osx::dock::autohide
-  include osx::dock::enable
-
-  include osx::finder::show_hard_drives_on_desktop
+	include osx::global::enable_keyboard_control_access
+	include osx::global::expand_print_dialog
+	include osx::global::expand_save_dialog
+	include osx::global::disable_remote_control_ir_receiver
+	include osx::global::tap_to_click
+	include osx::dock::autohide
+	include osx::dock::clear_dock
+	include osx::finder::show_all_on_desktop
+	include osx::finder::empty_trash_securely
+	include osx::finder::enable_quicklook_text_selection
+	include osx::finder::show_warning_before_emptying_trash
+	include osx::finder::show_all_filename_extensions
+	include osx::universal_access::ctrl_mod_zoom
+	include osx::safari::enable_developer_mode
+	include osx::disable_app_quarantine
+	include osx::no_network_dsstores
+	include osx::software_update
+	include osx::keyboard::capslock_to_control
 
 }

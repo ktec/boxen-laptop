@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.10.2)
+    boxen (3.10.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -199,7 +199,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  boxen (= 3.10.2)
+  boxen (= 3.10.3)
   brewcask (= 0.0.6)
   clojure (>= 0)
   dnsmasq (= 2.0.1)
@@ -221,7 +221,7 @@ DEPENDENCIES
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
-  osx (>= 0)
+  osx (= 2.8.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   postgresapp (>= 0)

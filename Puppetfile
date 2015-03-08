@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.10.2"
+github "boxen", "3.10.3"
 
 # Support for default hiera data in modules
 
@@ -61,7 +61,7 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "osx"
+github "osx", 		"2.8.0"
 github "sysctl"
 
 # datastores
