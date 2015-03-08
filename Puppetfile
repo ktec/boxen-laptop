@@ -58,5 +58,14 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+# Customisations
+github "chrome"
+github "iterm2"
+github "vim"
+github "emacs"
+github "postgresql"
+github "postgresapp"
+
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
