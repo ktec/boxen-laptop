@@ -76,7 +76,7 @@ github "zshgitprompt"
 
 # languages
 github "python"
-github "java", 		"1.0.6"
+github "java", 		"1.7.1"
 github "clojure"
 
 # editors
