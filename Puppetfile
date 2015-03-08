@@ -58,16 +58,41 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# Customisations
+# Optional/custom modules. There are tons available at
+# https://github.com/boxen.
+
 github "osx"
-github "zsh"
-github "chrome"
-github "iterm2"
-github "vim"
-github "emacs"
+github "sysctl"
+
+# datastores
 github "postgresql"
 github "postgresapp"
 
+# shells
+github "zsh"
+github "zshgitprompt"
+#github "ohmyzsh", :repo => "erivello/puppet-ohmyzsh"
+#github "fish"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
+# languages
+github "python"
+github "java"
+github "clojure"
+
+# editors
+github "vim"
+github "mou"
+github "property_list_key" # required by mou
+github "emacs"
+
+# utils
+github "heroku"
+github "tmux"
+github "imagemagick"
+github "iterm2"
+
+# apps
+#github "chrome"
+github "skype"
+github "dropbox"
+
