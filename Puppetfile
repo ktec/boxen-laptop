@@ -59,6 +59,8 @@ github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
 # Customisations
+github "osx"
+github "zsh"
 github "chrome"
 github "iterm2"
 github "vim"
