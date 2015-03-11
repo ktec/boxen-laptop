@@ -1,0 +1,39 @@
+homebrew_root: /usr/local
+
+boxen::personal::osx_apps:
+  - sonos
+  - sequel-pro
+  - slack
+  - vlc
+  - dropbox
+  - skype
+  - screenhero
+  - google-drive
+
+boxen::personal::havent_tried_these:
+  - pgadmin3
+  - toggldesktop
+  - hipchat
+  - alfred
+  - slack # installed via app store..
+
+boxen::personal::dont_work:
+  - ctags
+  - google-chrome
+  - virtualbox
+
+# Version compile configuration, if not version is defined the default is false
+# Yyou can define whether to compile from source or not based on long version
+# and define short versions as a fallback if non long version is defined
+"nodejs::version::compile":
+  "v0.10": true
+  "v0.4": true
+  "v0.6.20" : true
+
+# Version aliases, commonly used to bless a specific version
+# Use the "deeper" merge strategy, as with nodejs::version::env
+"nodejs::version::alias":
+  "v0.10": "v0.10.36"
+  "v0.8": "v0.8.26"
+  "v0.6": "v0.6.20"
+  "v0.4": "v0.4.10"

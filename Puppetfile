@@ -53,7 +53,7 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.7"
+github "ruby",        "8.4.1"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
@@ -75,12 +75,14 @@ github "zshgitprompt"
 #github "fish"
 
 # languages
-github "python"
+github "python",	"0.0.3",	:repo => "hanjianwei/puppet-python"
 github "java", 		"1.7.1"
 github "clojure"
 
 # editors
+github "macvim"
 github "vim"
+github "atom"
 github "mou"
 github "property_list_key" # required by mou
 github "emacs"
@@ -90,9 +92,15 @@ github "heroku"
 github "tmux"
 github "imagemagick"
 github "iterm2"
+github "alfred"
+github "ctags"
+github "googledrive"
+github "virtualbox"
+github "vlc"
 
 # apps
 #github "chrome"
 github "skype"
 github "dropbox"
-
+github "sonos"
+#github "slack"
